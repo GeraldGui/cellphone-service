@@ -2,6 +2,7 @@ package com.pluralsight;
 
 public class CellPhone {
 
+    // Attributes
     private long serialNumber;
 
     private String model;
@@ -9,6 +10,7 @@ public class CellPhone {
     private String phoneNumber;
     private  String owner;
 
+    // Parameterless constructor
     public CellPhone () {
         this.serialNumber = 0;
         this.model = " ";
@@ -17,6 +19,7 @@ public class CellPhone {
         this.owner = " ";
     }
 
+    // Getters and Setters
     public long getSerialNumber() {
         return serialNumber;
     }
